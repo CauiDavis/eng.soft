@@ -1,0 +1,93 @@
+:root {
+  --white: #fff;
+  --lightPrimaryColor: rgb(237, 241, 245);
+  --lightSecondaryColor: rgba(255, 255, 255, 0.5);
+  --lightTertiaryColor: rgba(255, 255, 255, 0.75);
+  --black: #0000005e;
+}
+
+body {
+  background-color: var(--lightPrimaryColor);
+}
+
+nav img {
+  width: 1.875rem;
+  height: 1.875rem;
+}
+
+.z-index9 {
+  z-index: 9;
+}
+
+.btn-menu-nav {
+  border: none;
+  background: transparent !important;
+  color: var(--lightSecondaryColor);
+}
+
+.btn-menu-nav:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.btn-menu-nav:hover {
+  background-color: transparent;
+  color: var(--lightTertiaryColor);
+}
+
+.alinhar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.sombra {
+  box-shadow: -1px 2px 0.25rem 1px #0000005e;
+}
+
+.pad {
+  padding: 20px;
+  margin: 20px;
+  text-align: justify;
+}
+.pad h2 {
+  text-align: center;
+}
+
+.card-content h3 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  ul.navbar-nav.mr-auto.mt-2.mt-lg-0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  form.form-inline.my-2.my-lg-0 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+  }
+}
+
+@media (min-width: 992px) {
+  form.form-inline.my-2.my-lg-0 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+  }
+}

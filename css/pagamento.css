@@ -1,0 +1,61 @@
+:root {
+  --white: #fff;
+  --lightPrimaryColor: rgb(237, 241, 245);
+  --lightSecondaryColor: rgba(255, 255, 255, 0.5);
+  --lightTertiaryColor: rgba(255, 255, 255, 0.75);
+  --dark: #8080806e;
+}
+
+body {
+  background-color: var(--lightPrimaryColor);
+}
+
+nav img {
+  width: 1.875rem;
+  height: 1.875rem;
+}
+
+.z-index9 {
+  z-index: 9;
+}
+
+.btn-menu-nav {
+  border: none;
+  background: transparent !important;
+  color: var(--lightSecondaryColor);
+}
+
+.btn-menu-nav:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.btn-menu-nav:hover {
+  background-color: transparent;
+  color: var(--lightTertiaryColor);
+}
+
+.form-card-cover {
+  width: 100%;
+  height: 300px;
+}
+
+.form-body {
+  background-color: var(--white);
+  border-radius: 0.25rem;
+}
+
+.padding {
+  padding: 1rem;
+}
+
+.alinhar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.border-form {
+  border: 1px solid var(--dark);
+}
