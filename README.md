@@ -1,7 +1,7 @@
 # ENGENHARIA DE SOFTWARE
 
 <div align="center">
-<img src="https://github.com/CauiDavis/conversor/raw/main/images/coin.jpeg" width="250" />
+<img src="https://github.com/CauiDavis/eng.soft/raw/main/images/scrum.png" width="250" />
 
 <div data-badges>
   <img src="https://img.shields.io/github/stars/CauiDavis/eng.soft?style=for-the-badge" alt="GitHub stars" />
